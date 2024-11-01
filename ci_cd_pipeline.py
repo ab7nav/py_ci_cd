@@ -2,9 +2,9 @@ import os
 import subprocess
 import sys
 
-REPO_URL = "" #the repo url
-REPO_DIR = "./" #the project repo
-SCRIPT_NAME = "process_csv.py"
+REPO_URL = "https://github.com/ab7nav/py_ci_cd.git" #the repo url
+REPO_DIR = "./py_ci_cd" #the project repo
+SCRIPT_NAME = "ci_cd_pipeline.py"
 EXECUTABLE_NAME = "process_csv"
 DIST_DIR = os.path.join(REPO_DIR, "dist")
 
