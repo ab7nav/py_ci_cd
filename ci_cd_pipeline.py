@@ -5,7 +5,7 @@ import sys
 REPO_URL = "https://github.com/ab7nav/py_ci_cd.git" #the repo url
 REPO_DIR = "./py_ci_cd" #the project repo
 SCRIPT_NAME = "ci_cd_pipeline.py"
-EXECUTABLE_NAME = "process_csv"
+EXECUTABLE_NAME = "ci_cd_pipeline"
 DIST_DIR = os.path.join(REPO_DIR, "dist")
 
 def clone_or_pull_repo():
