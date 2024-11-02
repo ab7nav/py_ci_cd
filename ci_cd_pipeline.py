@@ -22,6 +22,7 @@ def build_executable():
 
 def run_tests():
     executable_path = os.path.join(DIST_DIR, EXECUTABLE_NAME)
+    print(executable_path)
     if not os.path.exists(executable_path):
         print("ERROR: Executable not found. Build may have failed")
         return False
